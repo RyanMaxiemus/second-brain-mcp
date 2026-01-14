@@ -50,7 +50,7 @@ You do this:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/second-brain-mcp.git
+git clone https://github.com/RyanMaxiemus/second-brain-mcp.git
 cd second-brain-mcp
 
 # Install dependencies

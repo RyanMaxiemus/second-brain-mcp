@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  second-brain:
+    build: .
+    volumes:
+      - ~/Projects:/data/projects:ro
+      - ~/Notes:/data/notes:ro
+      - second-brain-index:/index
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    stdin_open: true
+    tty: true
+
+volumes:
+  second-brain-index:
