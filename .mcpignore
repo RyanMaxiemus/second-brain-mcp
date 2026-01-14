@@ -1,0 +1,116 @@
+# Dependencies - never index these
+node_modules/
+bower_components/
+vendor/
+__pycache__/
+*.pyc
+.Python
+venv/
+env/
+.venv/
+
+# Build artifacts
+dist/
+build/
+out/
+target/
+*.o
+*.so
+*.dll
+*.exe
+*.class
+*.jar
+*.war
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+Cargo.lock
+Gemfile.lock
+composer.lock
+poetry.lock
+Pipfile.lock
+
+# Generated/compiled code
+*.min.js
+*.min.css
+*.bundle.js
+*.chunk.js
+*.map
+
+# Framework/tool specific
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.webpack/
+.turbo/
+.svelte-kit/
+
+# Test artifacts
+coverage/
+.nyc_output/
+*.lcov
+*.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+
+# Media files (usually don't need semantic search)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.ico
+*.svg
+*.mp4
+*.mp3
+*.wav
+*.pdf
+*.zip
+*.tar
+*.gz
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Documentation build output
+_site/
+.docusaurus/
+docs/.vuepress/dist/
+
+# Large data directories
+data/
+datasets/
+models/
+checkpoints/
+
+# Git internals
+.git/
+
+# Environment and secrets
+.env
+.env.*
+*.key
+*.pem
+*.cert
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup

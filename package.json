@@ -1,0 +1,21 @@
+{
+  "name": "second-brain-mcp",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "second-brain-mcp": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node build/index.js"
+  },
+  "keywords": [],
+  "author": "Ryan Maxie @RyanMaxiemus",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.25.2",
+    "zod": "^4.3.5"
+  }
+}
